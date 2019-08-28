@@ -1,0 +1,8 @@
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://aaron@localhost:5432/butter_development?schema=public"
+}
+
+generator photon {
+  provider = "photonjs"
+}
