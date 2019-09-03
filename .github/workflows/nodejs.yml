@@ -20,7 +20,7 @@ jobs:
     - name: yarn install and test
       run: |
         yarn install
-        yarn test-api --ci
+        yarn test-api --ci --watchAll=false
         yarn test-app
       env:
         CI: true
