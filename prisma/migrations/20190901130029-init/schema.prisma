@@ -22,7 +22,7 @@ model User {
 
 model Vote {
   id    String  @default(cuid()) @id @unique
-  movie Movie
+  movie Movie?
   scene Boolean
-  user  User
+  user  User?
 }
