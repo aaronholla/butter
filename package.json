@@ -16,7 +16,7 @@
     "dev-prisma": "prisma2 dev",
     "dev": "react-scripts start",
     "build": "react-scripts build",
-    "test": "npm-run-all test-app test-api",
+    "test": "npm-run-all test-app \"test-api {@}\" --",
     "test-app": "react-scripts test",
     "test-api": "jest --watch --env=node api",
     "postinstall": "prisma2 generate"
