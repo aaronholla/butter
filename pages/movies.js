@@ -1,4 +1,3 @@
-import Head from 'next/Head'
 import Layout from '../components/Layout'
 
 const Movies = () => {
