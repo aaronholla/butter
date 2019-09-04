@@ -15,7 +15,7 @@
     "dev": "next",
     "dev:app": "now dev",
     "dev:db": "prisma2 dev",
-    "postinstall": "prisma2 generate",
+    "postinstall": "prisma2 generate && prisma2 lift up",
     "start": "next start",
     "start:dev": "npm-run-all -l -p dev:app dev:db",
     "test": "jest",
