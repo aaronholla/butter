@@ -2,7 +2,7 @@ import Layout from '../components/Layout'
 
 const Movies = () => {
   return(
-    <Layout>
+    <Layout title="Butter | All Movies" description="All Movies.">
       <p>All movies here.</p>
     </Layout>
   )

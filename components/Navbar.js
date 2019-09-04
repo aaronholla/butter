@@ -3,12 +3,16 @@ import Link from 'next/link'
 const Navbar = () => (
   <nav>
     <ul>
-      <Link href="/">
-        <a>Now Playing</a>
-      </Link>
-      <Link href="/movies">
-        <a>All Movies</a>
-      </Link>
+      <li>
+        <Link href="/">
+          <a>Now Playing</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/movies">
+          <a>All Movies</a>
+        </Link>
+      </li>
     </ul>
   </nav>
 )
