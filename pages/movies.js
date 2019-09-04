@@ -1,11 +1,11 @@
 import Layout from '../components/Layout'
 
-const Index = () => {
+const Movies = () => {
   return(
     <Layout>
-      <p>Now playing here.</p>
+      <p>All movies here.</p>
     </Layout>
   )
 }
 
-export default Index
+export default Movies
