@@ -1,4 +1,4 @@
-import Head from 'next/Head'
+import Head from 'next/head'
 import Navbar from './Navbar'
 
 const Layout = ({ children, title = "Butter", description = "Find what movies have end credit scenes" }) => (
