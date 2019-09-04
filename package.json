@@ -12,10 +12,12 @@
   },
   "scripts": {
     "build": "next build",
+    "db:migrate": "prisma2 lift up",
+    "db:save": "prisma2 lift save",
     "dev": "next",
     "dev:app": "now dev",
     "dev:db": "prisma2 dev",
-    "postinstall": "prisma2 generate && prisma2 lift up",
+    "postinstall": "prisma2 generate",
     "start": "next start",
     "start:dev": "npm-run-all -l -p dev:app dev:db",
     "test": "jest",
