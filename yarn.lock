@@ -5517,10 +5517,10 @@ pretty-format@^24.9.0:
     ansi-styles "^3.2.0"
     react-is "^16.8.4"
 
-prisma2@^2.0.0-preview-9.1:
-  version "2.0.0-preview-9.1"
-  resolved "https://registry.yarnpkg.com/prisma2/-/prisma2-2.0.0-preview-9.1.tgz#b87359de0854a26ebee506bc92c35cfd53355bcd"
-  integrity sha512-nSlPBmmdi7CrFJ+HtumJJak9XepYNfAAd4ZMSB6tbVhIlyXwzzwOVNRyzKQrFXeRalv/hkXnItzU7+A5bT4BYQ==
+prisma2@^2.0.0-preview014.2:
+  version "2.0.0-preview014.2"
+  resolved "https://registry.yarnpkg.com/prisma2/-/prisma2-2.0.0-preview014.2.tgz#1a9437a91663b9abc9d13212ca76ff33b18743ef"
+  integrity sha512-/AyU6C2xnAYHuJMVYRBFwXp2BJ7UGXet5C7YcN1sU9p0Rv8VXAauSS+SMjyP0RmYEjJPtiU8FqbYWyx4xLTsLg==
 
 private@^0.1.6:
   version "0.1.8"
