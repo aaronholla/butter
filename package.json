@@ -6,7 +6,7 @@
     "apollo-server-micro": "^2.9.0",
     "graphql": "^14.5.3",
     "next": "^9.0.5",
-    "prisma2": "^2.0.0-preview-9.1",
+    "prisma2": "^2.0.0-preview024",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
